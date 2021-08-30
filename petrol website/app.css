@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    color: honeydew;
+}
+h2 {
+    text-align: center;
+    color: honeydew;
+}
+body {
+    background-color: black;
+}
+.card {
+    background-color: gray;
+}
+.jumbotron {
+    background-color: gray;
+    width: 90%;
+    border-radius: 1rem;
+    text-align: center;
+    height: 35rem;
+    padding-top: 100px;
+    float: right;
+    bottom: 800px;
+}
+.jumbo {
+    background-color: gray;
+    width: 50%;
+    border-radius: 1rem;
+    text-align: center;
+    height: 30rem;
+    padding-top: 100px;
+    margin: 3rem auto;
+}
+.sidenav {
+    height: 100%;
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 4px;
+    left: 100px;
+  }
+
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
